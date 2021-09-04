@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    font-family: "Poppins", sans-serif;
+}
+
+.a {
+    display: flex;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.ladoA {
+    width: 50%;
+    height: 100vh;
+    align-content: center;
+    padding-bottom: 80px;
+}
+
+
+.ladoA h1 {
+    margin-top:5% ;
+    text-align: center;
+    color: orangered;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.ladoA ul {
+    padding: 5% 0 0 10%;
+    line-height: 50px;
+    
+}
+
+.ladoA img {
+    width: 225px;
+    height: 100px;
+
+}
+
+.ladoA span {
+    text-decoration: line-through;
+
+}
+
+.ladoB  {
+    width: 40%;
+}
+
+.ladoB .espaco {
+    line-height: 50px;
+
+}
+
+.ladoB  h1 {
+    text-transform: uppercase;
+    color: orangered;
+    text-align: center;
+    padding: 5%;
+
+}
+
+.ladoB  h2 {
+    background-color: rgb(209, 208, 208);
+    width: 100%;
+    height: 7vh;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal; 
+}
+.ladoB  p {
+    font-size: 12px;
+    
+}
+
+.ladoB span{
+    font-size: 30px;
+}
+.sem-spaco{
+    padding-top: 5%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    height: 60px;
+    background-color: orangered;
+}
+.rodape p{
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.rodape a {
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+}
+a:hover{
+    color: gray;
+}
